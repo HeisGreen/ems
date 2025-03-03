@@ -1,0 +1,22 @@
+@keyframes neon-glow {
+    0%, 100% {
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0fa,
+        0 0 40px #0fa,
+        0 0 80px #0fa;
+    }
+    50% {
+      text-shadow:
+        0 0 2px #fff,
+        0 0 5px #fff,
+        0 0 10px #0fa,
+        0 0 20px #0fa,
+        0 0 40px #0fa;
+    }
+  }
+  
+  .neon-glow {
+    animation: neon-glow 1.5s ease-in-out infinite alternate;
+  }
