@@ -18,7 +18,7 @@ const Login = () => {
             </div>
                 <p className="text-sm text-blue-300 hover:text-orange-300 cursor-pointer"><Link>Forgot password?</Link></p>
             </div>
-                <h3 className="w-full py-5 border-t-orange-400 border-t-[0.4px] text-sm text-center font-bold"> Don't have an account? <Link to="/" className="text-orange-300">
+                <h3 className="w-full py-5 border-t-orange-400 border-t-[0.4px] text-sm text-center font-bold"> Don&apos;t have an account? <Link to="/" className="text-orange-300">
           Sign Up
         </Link></h3>
         </div>
